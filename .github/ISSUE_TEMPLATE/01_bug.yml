@@ -1,0 +1,57 @@
+name: Bug Report
+description: Report a reproducible bug in Aurelia AI
+title: "[BUG]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting an issue in **annoris/aurelia**.
+        Please do **not** report security vulnerabilities here — submit them privately via [GitHub Security Advisories](https://github.com/annoris/aurelia/security/advisories/new).
+
+  - type: dropdown
+    id: runtime
+    attributes:
+      label: Deployment Environment
+      description: Select the runtime environment where the bug occurs.
+      options:
+        - Docker (local container / Docker Compose)
+        - Docker (remote server / cloud VM)
+        - Bare-metal Node.js production
+        - Local development (npm run dev:local)
+        - Other
+      default: 0
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the actual behavior and what you expected to happen instead.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: Provide clear, numbered steps to reproduce the issue along with relevant error messages or logs (never paste secrets or API keys).
+    validations:
+      required: false
+
+  - type: input
+    id: llm-provider
+    attributes:
+      label: LLM Provider & Model (if applicable)
+      placeholder: e.g., Ollama / qwen2.5-coder-32b-instruct, OpenAI / gpt-4o
+    validations:
+      required: false
+
+  - type: input
+    id: embedder-provider
+    attributes:
+      label: Embedding Provider & Model (if applicable)
+      placeholder: e.g., Native / all-MiniLM-L6-v2, Ollama / nomic-embed-text
+    validations:
+      required: false

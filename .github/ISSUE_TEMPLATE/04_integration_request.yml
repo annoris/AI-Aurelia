@@ -1,0 +1,70 @@
+name: Integration Proposal
+description: Propose a new LLM, embedding, vector database, or business automation connector
+title: "[INTEGRATION]: "
+labels: ["integration"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please review the integration vetting criteria in [CONTRIBUTING.md](https://github.com/annoris/aurelia/blob/main/CONTRIBUTING.md) before submitting.
+        Providers that expose a standard OpenAI-compatible `/v1/chat/completions` API are already supported via the **Generic OpenAI** connector and do not require a dedicated integration.
+
+  - type: input
+    id: provider_name
+    attributes:
+      label: Provider Name
+    validations:
+      required: true
+
+  - type: input
+    id: provider_website
+    attributes:
+      label: Official Website URL
+      placeholder: "https://example.com"
+    validations:
+      required: true
+
+  - type: input
+    id: provider_docs
+    attributes:
+      label: API Documentation URL
+      placeholder: "https://docs.example.com"
+    validations:
+      required: true
+
+  - type: input
+    id: provider_privacy
+    attributes:
+      label: Privacy Policy URL
+      placeholder: "https://example.com/privacy"
+    validations:
+      required: true
+
+  - type: textarea
+    id: userbase_proof
+    attributes:
+      label: Proof of Active User Base & Demand
+      description: Provide verifiable evidence of community adoption (e.g., repository stars, package downloads, or active developer demand).
+    validations:
+      required: true
+
+  - type: dropdown
+    id: models_endpoint
+    attributes:
+      label: Native Models Discovery
+      description: Does the API expose a standard GET `/v1/models` (or native equivalent) endpoint for dynamic model listing?
+      options:
+        - "Yes, it supports a model enumeration endpoint."
+        - "No, users must enter model identifiers manually."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: technical_delta
+    attributes:
+      label: Technical Compatibility Layer
+      options:
+        - "This provider is NOT OpenAI-compatible and requires custom SDK/orchestration logic."
+        - "This provider IS OpenAI-compatible (use the Generic OpenAI connector instead)."
+    validations:
+      required: true

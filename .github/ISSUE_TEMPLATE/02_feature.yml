@@ -1,0 +1,34 @@
+name: Feature Request
+description: Propose a new capability or enhancement for Aurelia AI
+title: "[FEAT]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Suggest an enhancement for **annoris/aurelia**. Please search existing issues and [Discussions](https://github.com/annoris/aurelia/discussions) first to avoid duplicates.
+        Per [CONTRIBUTING.md](https://github.com/annoris/aurelia/blob/main/CONTRIBUTING.md), new features require maintainer approval before opening a PR.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or Business Use Case
+      description: Describe the SMB, enterprise, or developer automation workflow this feature would improve.
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: Describe the expected behavior, UI, or API surface you would like to see.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Note any existing workflows, agent skills, or MCP tools you evaluated.
+    validations:
+      required: false
