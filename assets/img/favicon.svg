@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none" role="img" aria-label="Aurelia AI icon">
+  <rect width="64" height="64" rx="18" fill="#102c32"/>
+  <rect x="1.5" y="1.5" width="61" height="61" rx="16.5" stroke="#2dd4bf" stroke-opacity="0.35" stroke-width="1.5"/>
+  <path d="M17 45 29 17h6l12 28h-8l-7-18-7 18z" fill="#ddbf80"/>
+  <path d="M27 38h20" stroke="#ddbf80" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="47" cy="18" r="3.2" fill="#f5e9cc"/>
+</svg>

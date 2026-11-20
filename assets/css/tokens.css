@@ -1,0 +1,110 @@
+/* Aurelia AI Showcase Design Tokens
+ * Dark executive default (#0b1120 navy/obsidian-slate + #2dd4bf teal + #ddbf80 brushed gold)
+ * Light mode toggle (#f7f8fa neutral canvas + #0f766e teal + #a88443 gold)
+ */
+
+:root,
+[data-theme="dark"] {
+  color-scheme: dark;
+
+  --bg: #0b1120;
+  --bg-elevated: #111827;
+  --surface: #162033;
+  --surface-hover: #1e293b;
+  --border: rgba(148, 163, 184, 0.18);
+  --border-strong: rgba(148, 163, 184, 0.34);
+
+  --fg: #f8fafc;
+  --muted: #94a3b8;
+
+  --accent: #2dd4bf;
+  --accent-strong: #0f766e;
+  --accent-hover: #115e59;
+  --accent-soft: rgba(45, 212, 191, 0.12);
+  --accent-fg: #f8fafc;
+  --accent-ink: #042f2e;
+  --accent-ring: rgba(45, 212, 191, 0.28);
+
+  --gold: #ddbf80;
+  --gold-soft: rgba(221, 191, 128, 0.14);
+  --gold-border: rgba(221, 191, 128, 0.34);
+  --gold-text: #ddbf80;
+
+  --success: #34d399;
+  --success-soft: rgba(52, 211, 153, 0.14);
+  --warning: #fbbf24;
+  --warning-soft: rgba(251, 191, 36, 0.14);
+  --warning-border: rgba(251, 191, 36, 0.32);
+  --danger: #f87171;
+  --danger-soft: rgba(248, 113, 113, 0.14);
+
+  --header-bg: rgba(11, 17, 32, 0.88);
+  --code-bg: #070c18;
+  --grid-line: rgba(45, 212, 191, 0.08);
+  --backdrop: rgba(4, 8, 18, 0.78);
+
+  --shadow-sm: 0 2px 10px rgba(2, 6, 23, 0.34);
+  --shadow-md: 0 14px 36px rgba(2, 6, 23, 0.48);
+  --shadow-lg: 0 28px 70px rgba(2, 6, 23, 0.64);
+}
+
+[data-theme="light"] {
+  color-scheme: light;
+
+  --bg: #f7f8fa;
+  --bg-elevated: #ffffff;
+  --surface: #ffffff;
+  --surface-hover: #f1f5f9;
+  --border: #e4e7ec;
+  --border-strong: #cbd5e1;
+
+  --fg: #182230;
+  --muted: #667085;
+
+  --accent: #0f766e;
+  --accent-strong: #0f766e;
+  --accent-hover: #115e59;
+  --accent-soft: #f0fdfa;
+  --accent-fg: #ffffff;
+  --accent-ink: #ffffff;
+  --accent-ring: rgba(15, 118, 110, 0.22);
+
+  --gold: #a88443;
+  --gold-soft: rgba(168, 132, 67, 0.12);
+  --gold-border: rgba(168, 132, 67, 0.32);
+  --gold-text: #7d5f29;
+
+  --success: #059669;
+  --success-soft: rgba(5, 150, 105, 0.1);
+  --warning: #b45309;
+  --warning-soft: rgba(180, 83, 9, 0.1);
+  --warning-border: rgba(180, 83, 9, 0.28);
+  --danger: #dc2626;
+  --danger-soft: rgba(220, 38, 38, 0.1);
+
+  --header-bg: rgba(247, 248, 250, 0.9);
+  --code-bg: #f1f5f9;
+  --grid-line: rgba(15, 118, 110, 0.06);
+  --backdrop: rgba(15, 23, 42, 0.56);
+
+  --shadow-sm: 0 2px 8px rgba(24, 34, 48, 0.06);
+  --shadow-md: 0 12px 30px rgba(24, 34, 48, 0.08);
+  --shadow-lg: 0 24px 56px rgba(24, 34, 48, 0.12);
+}
+
+:root {
+  --font-ui: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  --container-max: 1360px;
+  --header-height: 68px;
+
+  --radius-xs: 6px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-pill: 999px;
+
+  --transition-fast: 150ms cubic-bezier(0.2, 0.75, 0.25, 1);
+  --transition-med: 240ms cubic-bezier(0.2, 0.75, 0.25, 1);
+}

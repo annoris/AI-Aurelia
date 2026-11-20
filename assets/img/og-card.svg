@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none" role="img" aria-labelledby="og-title og-desc">
+  <title id="og-title">Aurelia AI — Enterprise Intelligence &amp; Business Automation Platform</title>
+  <desc id="og-desc">Document-grounded AI workspaces, visual agent flows, MCP tools, local CRM, and self-hosted enterprise automation.</desc>
+  <defs>
+    <linearGradient id="og-bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0b1120"/>
+      <stop offset="60%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#111d2e"/>
+    </linearGradient>
+    <radialGradient id="og-glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(940 280) rotate(135) scale(460 320)">
+      <stop offset="0%" stop-color="#2dd4bf" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#0b1120" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#og-bg)"/>
+  <rect width="1200" height="630" fill="url(#og-glow)"/>
+
+  <!-- Subtle Grid -->
+  <g stroke="#2dd4bf" stroke-opacity="0.06">
+    <path d="M0 90H1200M0 180H1200M0 270H1200M0 360H1200M0 450H1200M0 540H1200"/>
+    <path d="M120 0V630M240 0V630M360 0V630M480 0V630M600 0V630M720 0V630M840 0V630M960 0V630M1080 0V630"/>
+  </g>
+
+  <!-- Brand Lockup -->
+  <g transform="translate(76 76)">
+    <rect width="74" height="74" rx="20" fill="#102c32" stroke="#2dd4bf" stroke-opacity="0.4" stroke-width="1.5"/>
+    <g transform="translate(5 5)">
+      <path d="M17 45 29 17h6l12 28h-8l-7-18-7 18z" fill="#ddbf80"/>
+      <path d="M27 38h20" stroke="#ddbf80" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="47" cy="18" r="3.2" fill="#f5e9cc"/>
+    </g>
+    <text x="96" y="38" fill="#f8fafc" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="40" font-weight="700" letter-spacing="4">AURELIA <tspan fill="#ddbf80">AI</tspan></text>
+    <rect x="96" y="50" width="244" height="26" rx="13" fill="#ddbf80" fill-opacity="0.14" stroke="#ddbf80" stroke-opacity="0.48"/>
+    <text x="114" y="67" fill="#ddbf80" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="11.5" font-weight="700" letter-spacing="2.2">ENTERPRISE INTELLIGENCE</text>
+  </g>
+
+  <!-- Main Copy -->
+  <text x="76" y="250" fill="#f8fafc" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="50" font-weight="700" letter-spacing="-1">Business Automation,</text>
+  <text x="76" y="312" fill="#2dd4bf" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="50" font-weight="700" letter-spacing="-1">Grounded in Your Docs.</text>
+
+  <text x="76" y="370" fill="#94a3b8" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="22">Workspaces, visual agent flows, MCP tools, and local CRM</text>
+  <text x="76" y="402" fill="#94a3b8" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="22">built for SMBs and technical teams on your own infrastructure.</text>
+
+  <!-- Capability Pills -->
+  <g transform="translate(76 446)">
+    <rect x="0" y="0" width="214" height="40" rx="10" fill="#162033" stroke="#2dd4bf" stroke-opacity="0.38"/>
+    <text x="20" y="25" fill="#f8fafc" font-family="ui-sans-serif, sans-serif" font-size="14" font-weight="600">Document RAG &amp; Citations</text>
+
+    <rect x="228" y="0" width="206" height="40" rx="10" fill="#162033" stroke="#ddbf80" stroke-opacity="0.4"/>
+    <text x="248" y="25" fill="#f8fafc" font-family="ui-sans-serif, sans-serif" font-size="14" font-weight="600">Visual Flows + MCP Tools</text>
+
+    <rect x="448" y="0" width="194" height="40" rx="10" fill="#162033" stroke="#94a3b8" stroke-opacity="0.35"/>
+    <text x="468" y="25" fill="#f8fafc" font-family="ui-sans-serif, sans-serif" font-size="14" font-weight="600">Self-Hosted 3-Tier Stack</text>
+  </g>
+
+  <!-- Right Preview Card -->
+  <g transform="translate(764 132)">
+    <rect width="364" height="368" rx="18" fill="#111827" stroke="#334155"/>
+    <rect x="1" y="1" width="362" height="44" rx="17" fill="#162033"/>
+    <circle cx="24" cy="23" r="4" fill="#475569"/>
+    <circle cx="38" cy="23" r="4" fill="#475569"/>
+    <circle cx="52" cy="23" r="4" fill="#2dd4bf"/>
+    <text x="72" y="27" fill="#94a3b8" font-family="ui-monospace, monospace" font-size="12">WORKSPACE PREVIEW</text>
+
+    <rect x="24" y="68" width="150" height="86" rx="12" fill="#162033" stroke="#2dd4bf" stroke-opacity="0.35"/>
+    <text x="38" y="94" fill="#94a3b8" font-family="ui-sans-serif, sans-serif" font-size="12">GROUNDED CITATION</text>
+    <text x="38" y="132" fill="#2dd4bf" font-family="ui-monospace, monospace" font-size="26" font-weight="700">96.4%</text>
+
+    <rect x="190" y="68" width="150" height="86" rx="12" fill="#162033" stroke="#ddbf80" stroke-opacity="0.35"/>
+    <text x="204" y="94" fill="#94a3b8" font-family="ui-sans-serif, sans-serif" font-size="12">ACTIVE WORKFLOWS</text>
+    <text x="204" y="132" fill="#ddbf80" font-family="ui-monospace, monospace" font-size="26" font-weight="700">4 FLOWS</text>
+
+    <rect x="24" y="174" width="316" height="82" rx="12" fill="#162033" stroke="#334155"/>
+    <text x="40" y="200" fill="#f8fafc" font-family="ui-sans-serif, sans-serif" font-size="14" font-weight="600">B2B Sales Proposal Assistant</text>
+    <text x="40" y="223" fill="#94a3b8" font-family="ui-sans-serif, sans-serif" font-size="12.5">Drafting scope from Service Catalog &amp; SLA Guide</text>
+    <rect x="40" y="236" width="220" height="6" rx="3" fill="#0f766e"/>
+
+    <rect x="24" y="274" width="316" height="68" rx="12" fill="#102c32" stroke="#2dd4bf" stroke-opacity="0.4"/>
+    <text x="40" y="302" fill="#ddbf80" font-family="ui-monospace, monospace" font-size="12" font-weight="700">LOCAL CRM · MCP · EMBED</text>
+    <text x="40" y="324" fill="#f8fafc" font-family="ui-sans-serif, sans-serif" font-size="13">React :3000  ·  API :3001  ·  Collector :8888</text>
+  </g>
+
+  <!-- Footer Strip -->
+  <line x1="76" y1="548" x2="1124" y2="548" stroke="#1e293b"/>
+  <text x="76" y="582" fill="#94a3b8" font-family="ui-monospace, monospace" font-size="14">github.com/annoris/aurelia  ·  Interactive Sandbox &amp; Architecture Showcase</text>
+</svg>
