@@ -1,0 +1,25 @@
+# Dependencies & virtual environments
+node_modules
+__pycache__
+v-env
+
+# OS & editor artifacts
+.DS_Store
+.idea
+*.bak
+*.log
+
+# Package locks & local build outputs
+yarn.lock
+frontend/dist/
+frontend/bundleinspector.html
+
+# Secrets, license authority, and local runtime data (never commit)
+.env
+.env.*
+!.env.example
+.license-authority/
+aws_cf_deploy_aurelia_ai.json
+server/storage/aurelia-license.json
+server/storage/aurelia-enterprise-data.json
+server/storage/models/

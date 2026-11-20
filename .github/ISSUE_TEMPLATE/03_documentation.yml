@@ -1,0 +1,21 @@
+name: Documentation Improvement
+description: Report unclear, outdated, or missing documentation
+title: "[DOCS]: "
+labels: ["documentation"]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Documentation Page or File Path
+      description: Link to the documentation file or GitHub Pages section that needs updating.
+      placeholder: e.g., docs/DEVELOPMENT.md or https://annoris.github.io/aurelia/
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What needs improvement?
+      description: Describe what is inaccurate, missing, or confusing, and suggest an improvement if possible.
+    validations:
+      required: true

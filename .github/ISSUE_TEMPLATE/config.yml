@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: GitHub Discussions
+    url: https://github.com/annoris/aurelia/discussions
+    about: Ask questions, request help, and share ideas with the Aurelia AI community.
+  - name: Aurelia AI Showcase & Docs
+    url: https://annoris.github.io/aurelia/
+    about: Explore platform capabilities, architecture guides, and deployment references.
